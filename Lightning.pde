@@ -16,7 +16,7 @@ int b = 255;
 void setup(){
   size(500, 500);
   drawBackground();
-  img = loadImage("thor.png");
+  img = loadImage("thor.jpg");
   drawThor(thorX, thorY);
 }
 
