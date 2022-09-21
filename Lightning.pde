@@ -23,6 +23,7 @@ void setup(){
 
 void draw(){
   {
+    image(img, 0,0);
     int randomStroke = 5;
     stroke((int)(Math.random()*10+130), (int)(Math.random()*10+201), (int)(Math.random()*10+230));
     strokeWeight(randomStroke);
